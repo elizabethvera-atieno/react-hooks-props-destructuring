@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <p>hello</p>
       <MovieCard title={title} genres={genresArr} />
-      <SocialMedia links={socialLinks}/>
+      <SocialMedia socialLinks={socialLinks}/>
     </div>
   );
 }

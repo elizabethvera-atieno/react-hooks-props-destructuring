@@ -9,6 +9,7 @@ import React from "react";
 //       );
 // }
 function SocialMedia({socialLinks :{ github, linkedin }}){
+    console.log('hello')
     return (
         <div>
         <a href={github}>{github}</a>
